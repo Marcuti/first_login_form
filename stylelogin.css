@@ -1,0 +1,248 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  body {
+  overflow-x: hidden;
+  background-image: url('fundo/wallpaperflare.com_wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+  
+  header {
+  background-color: rgba(192, 19, 19, 0.555); 
+  text-align: center;
+  padding: 0px;
+  font-size: 18px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.4);
+    
+  }
+  header > i{
+  padding: 5px 5px 5px;
+  background-color: rgba(255, 25, 25, 0.555);  
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 80px;
+  margin-left: 0;
+  position:absolute;
+  right: 10px;
+  left: 10px;
+  margin-right: 90%;
+  cursor: pointer;
+
+  
+}
+  header > h2, header > h1 {
+  color: rgb(0, 0, 0);
+  padding: 10px 0;
+  }
+  
+  .main-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+    
+  }
+  
+  .card-login {
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px rgba(139, 69, 19, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
+  margin-top: 5%;
+    
+  }
+  
+  .card-login > h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  color: rgb(170, 10, 10);
+  font-weight: 800;
+  margin-bottom: 10px; 
+  margin-right: 4px;
+  font-size: 46px;
+  -webkit-text-stroke: 1px rgb(94, 1, 1);
+  }
+  .card-login > h2 {
+  border: 1px solid rgb(170, 10, 10);
+  letter-spacing: 1px;
+  margin-bottom: 20px; 
+  margin-right: 12px;
+    
+  }
+  .textfield {
+  text-align: justify;
+  margin: 12px;
+  padding: 10px;
+  color: rgb(170, 10, 10);
+  display: flex;
+  align-items: center;
+    
+
+  }
+  
+  .textfield > input {
+  width:120%; ;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px; 
+  margin-bottom:2px; 
+  background-color: transparent;
+  caret-color: white; 
+    
+    
+  }
+  
+  .textfield > label {
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+    
+  }
+  .textfield > ::placeholder {
+  color: #ffffff7a;
+
+  }
+  .textfield > i{
+    
+  display: flex;
+  width: 50px; 
+  font-size: 24px; 
+  margin-left: 4%;
+    
+}
+
+
+  
+  .btn-login {
+  width: 90%;
+  height: 54px;
+  border: 2px solid rgb(170, 10, 10);
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  font-size: 18px;
+  color: #c4bebe;
+  font-weight: 600;
+  margin-top: 20px; 
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: rgb(199, 0, 0);
+  transition:  rgb(143, 2, 2)  0.3s, color 0.3s;
+}
+   .btn-login:hover {
+    background-color: rgb(143, 2, 2); ;
+
+ }
+    
+
+  .remember-forgot {
+  margin-right: 10px;
+    
+    
+  }
+  .remember-forgot >a{
+  padding: 0px 15px;
+    
+  }
+  .remember-forgot >label{
+  color: rgb(0, 0, 0);
+    
+    
+  }
+.remember-forgot input[type="checkbox"] {
+  transform: scale(1.2);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 5px; 
+  margin-top: 6px;
+  align-items: justify;
+}
+
+  .register-link> p{
+  margin-top: 20px;
+    
+}
+
+a{
+    color: red;
+  text-decoration: none;
+  font-size: 14px;
+}
+.main-meio{
+  text-align: center;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 8%;
+    
+}  
+.main-meio> p{
+  padding-right: 20%;
+  padding-left: 20%;
+  padding-top: 1%;
+  margin-bottom: 1%;
+    
+}
+.main-meio>h2 ,h3{
+  padding-right: 2%;
+}
+.img-meio{
+  border: none;
+    
+}
+.img-meio>img{
+    
+    
+  width: 60%;
+  height:auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  border-radius: 50px;
+  border-color: black;
+    
+}
+footer{
+  padding-left: 90%;
+  color: #fff;
+  font-size: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login-others>h2{
+  border: 1px solid rgb(170, 10, 10);
+  letter-spacing: 1px;
+  margin-bottom: 20px; 
+  margin-right: 12px;
+}
+.login-others{
+  margin-top: 14px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12;
+}
+.login-others>img{
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  display: inline-block;
+    
+}
